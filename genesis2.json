@@ -1,0 +1,57 @@
+{
+  "generator": "genesis2",
+  "version": "2.0.0",
+  "projectName": "smooth-twilight",
+  "projectId": 9,
+  "genId": 9,
+  "domain": "rathnas.com",
+  "sld": "rathnas",
+  "tld": "com",
+  "owner": "anandrathnas",
+  "repo": "smooth-twilight",
+  "generatedAt": "2025-08-31T09:24:38.419Z",
+  "generatedBy": "genesis2-api",
+  "modules": [
+    {
+      "kind": "code",
+      "layer": "ops",
+      "type": "aws",
+      "name": "wild-meadow",
+      "region": "us-west-1"
+    },
+    {
+      "kind": "code",
+      "layer": "backend",
+      "type": "nodejs",
+      "name": "fair-meadow",
+      "region": "us-west-1"
+    },
+    {
+      "kind": "code",
+      "layer": "client",
+      "type": "react",
+      "name": "wild-island",
+      "region": "us-west-1"
+    },
+    {
+      "kind": "code",
+      "layer": "docs",
+      "type": "readme",
+      "name": "deep-ocean",
+      "region": "us-west-1"
+    },
+    {
+      "kind": "code",
+      "layer": "docs",
+      "type": "api-docs",
+      "name": "gentle-sunset",
+      "region": "us-west-1"
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "license": "MIT",
+    "tags": [
+    ]
+  }
+}
