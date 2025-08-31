@@ -1,0 +1,97 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Production builds
+build/
+dist/
+out/
+target/
+*.jar
+*.war
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Temporary folders
+tmp/
+temp/
+
+# Generated files
+ops-aws-wild-meadow/build/
+ops-aws-wild-meadow/dist/
+ops-aws-wild-meadow/target/
+ops-aws-wild-meadow/.env*
+ops-aws-wild-meadow/node_modules/
+backend-nodejs-fair-meadow/build/
+backend-nodejs-fair-meadow/dist/
+backend-nodejs-fair-meadow/target/
+backend-nodejs-fair-meadow/.env*
+backend-nodejs-fair-meadow/node_modules/
+client-react-wild-island/build/
+client-react-wild-island/dist/
+client-react-wild-island/target/
+client-react-wild-island/.env*
+client-react-wild-island/node_modules/
+docs-readme-deep-ocean/build/
+docs-readme-deep-ocean/dist/
+docs-readme-deep-ocean/target/
+docs-readme-deep-ocean/.env*
+docs-readme-deep-ocean/node_modules/
+docs-api-docs-gentle-sunset/build/
+docs-api-docs-gentle-sunset/dist/
+docs-api-docs-gentle-sunset/target/
+docs-api-docs-gentle-sunset/.env*
+docs-api-docs-gentle-sunset/node_modules/
+
+# Cloud and deployment
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
